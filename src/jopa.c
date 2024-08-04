@@ -31,7 +31,7 @@ int main(void) {
 }
 
 void paint(double values[WIDTH]) {
-    for (int i = 0; i < HEIGHT; i++) {
+    for (int i = HEIGHT-1; i >= 0; i--) {
         // printf("%d ", i);
         for (int j = 0; j < WIDTH; j++) {
             if (values[j] == i)
