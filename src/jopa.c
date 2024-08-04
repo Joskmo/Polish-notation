@@ -1,9 +1,4 @@
-#include <math.h>
-#include <stdio.h>
-#include <stdlib.h>
-
-#define HEIGHT 25
-#define WIDTH 80
+#include "graph.h"
 
 void paint(double values[WIDTH]);
 void rounding(double values[WIDTH]);
